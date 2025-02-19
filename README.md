@@ -1,6 +1,6 @@
 # TypeShii Monorepo
 
-Welcome to **TypeShii**, a fast-paced multiplayer typing racing game built as part of a take-home assessment for PlayHour.ai. This monorepo is managed using **Turborepo** and contains both the frontend and backend for the game.
+Welcome to **TypeShii**, a fast-paced multiplayer typing racing game built as part of a take-home assessment for a job application. This monorepo is managed using **Turborepo** and contains both the frontend and backend for the game.
 
 ## 🎮 About the Game
 
@@ -8,12 +8,12 @@ TypeShii is a multiplayer game where players compete to type through a given par
 
 ### How to Play
 1. **Join or Create a Game**:
-    - Enter an existing game ID or create a new game.
+   - Enter an existing game ID or create a new game.
 2. **Race to Type**:
-    - Type the provided paragraph as quickly and accurately as possible.
-    - Progress is displayed in real-time for all players.
+   - Type the provided paragraph as quickly and accurately as possible.
+   - Progress is displayed in real-time for all players.
 3. **Win**:
-    - The first player to complete the paragraph is the winner, but all players can see their scores and rankings at the end.
+   - The first player to complete the paragraph is the winner, but all players can see their scores and rankings at the end.
 
 ---
 
@@ -130,13 +130,13 @@ The backend provides WebSocket APIs for game interactions and REST APIs for auxi
 ### API Types
 ```ts
 export type Player = {
-  id: string;
-  progress: number;
-  speed: number;
-  typedText: string;
-  paragraph: string;
-  finishTime?: number;
-  score?: number;
+   id: string;
+   progress: number;
+   speed: number;
+   typedText: string;
+   paragraph: string;
+   finishTime?: number;
+   score?: number;
 };
 ```
 
@@ -166,4 +166,12 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
+## 🔗 Links
+
+- **Live Site**: [https://typeshii-ruddy.vercel.app/](https://typeshii-ruddy.vercel.app/)
+- **Storybook**: [https://67b5a18e3e293979dd71095d-akbfebirsz.chromatic.com/](https://67b5a18e3e293979dd71095d-akbfebirsz.chromatic.com/)
+
+---
+
 Thank you for checking out **TypeShii**! 🚀
+
